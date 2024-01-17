@@ -1,0 +1,41 @@
+
+1]Positioning Proprty
+    > The position property specifies the type of positioning method used for an element. 
+    (static, relative, fixed, absolute or sticky).
+
+    >There are five different position values:
+     -static  
+     -relative
+     -fixed
+     -absolute
+     -sticky
+
+    >Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first.
+    
+    >position: static;
+        -HTML elements are positioned static by default.
+        -Static positioned elements are not affected by the top, bottom, left, and right properties.
+
+    >position: relative;
+        -An element with position: relative; is positioned relative to its normal position.
+        -Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. 
+
+    >position: fixed;
+        -An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
+        -
+    >position: absolute;
+        -An element with position: absolute will be positioned with respect to its nearest Non-static ancestor. The positioning of this element does not depend upon its siblings or the elements which are at the same level.
+    
+    >position: sticky;
+        -An element with position: sticky; is positioned based on the user's scroll position.
+        -
+
+2] box-sizing: border-box;
+    >Box sizing Property?
+    The CSS box-sizing property is used to specify how to calculate the total height and width of an element.
+    It controls the size of an element with a specified height and width.
+    It allows you to include the padding and border within the total height and width of the element.
+
+    >border-box: 
+       - The border-box is a widely used value of the box-sizing property. It informs the browser to adjust the border and padding within the specified height and width of an element. It means if we specify the width of an element as 200 px, then the specified border and padding will be included within 200 px, and the content box will adjust the extra width.
+
