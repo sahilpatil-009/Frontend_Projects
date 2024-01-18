@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.sec-main{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    background-color:#e3f2fd;
+    align-items: center;
+   justify-content: center;
+}
+
+.sec{
+    margin: 20px;
+    height: 250px;
+    width: 390px;
+}
+
+.card{
+     margin: 20px;
+    height: 250px;
+    width: 390px;
+    background-color: black;
+    border-radius: 24px;
+    border: none;
+    color: white;
+    padding: 20px;
+
+    /*  */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card .logo img{
+    width: 70px;
+}
+
+.card .chip {
+    width: 60px;
+}
+
+.card header,
+.card .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card .logo h5{
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card .card-content{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.card .card-content .name{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-content h5{
+    font-weight: 400;
+}
+.card-content h3{
+    font-weight: 400;
+    /* word-spacing: 1px; */
+    letter-spacing: 1px;
+}
+.card-content h4{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.card-back h6{
+    margin-top: 4px;
+    font-size: 9px;
+}
+
+.card-back .magneticchip{
+    margin-top: 20px;
+    display: flex;
+    height: 45px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.card-back .magneticchip .signature{
+    height: 45px;
+    left: 0;
+    width: 98%;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;
+} 
+
+.card-back h5{
+    margin-top: 10px;
+    font-size: 10px;
+}
